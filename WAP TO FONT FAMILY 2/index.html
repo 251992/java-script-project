@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.our-item {
+  background-color: pink;
+  border: 1px solid yellow;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+<body>
+    <p id= "text">JAVA IS A OBJECT BASED AND OBJECT ORIENTED LANGUAGE</p>
+    <!-- <div>
+        <button id= "jsstyle" onclick ="js_style()">red</button>
+        <button id= "jsstyle" onclick ="js_style()">yellow</button>
+        <button id= "jsstyle" onclick ="js_style()">blue</button>
+    </div> -->
+    <div class="grid-container">
+        <div class="our-item" onclick ="js_style()">red</div>
+        <div class="our-item" onclick ="js_style1()">green</div>
+        <div class="our-item" onclick ="js_style2()">blue</div>  
+        <div class="our-item" onclick ="js_style3()">20px</div>
+        <div class="our-item" onclick ="js_style4()">30px</div>
+        <div class="our-item" onclick ="js_style5()">40px</div>  
+        <div class="our-item" onclick ="js_style6()">sans-serif</div>
+        <div class="our-item" onclick ="js_style7()">cursive</div>
+        <div class="our-item" onclick ="js_style8()">monospace</div>  
+      </div>
+</body>
+<script>
+    function js_style(){
+    text.style.color="red";
+    }
+    function js_style1(){ 
+    text.style.color="green";
+  }
+  function js_style2(){ 
+    text.style.color="blue";
+  }
+  
+  function js_style3(){ 
+    text.style.fontSize="20px";
+  }
+  function js_style4(){ 
+    text.style.fontSize="30px";
+  }
+  function js_style5(){ 
+    text.style.fontSize="40px";
+  }
+  function js_style6(){ 
+    text.style.fontfamily="sans-serif";
+  }
+  function js_style7(){ 
+    text.style.fontSize="40px";
+  }
+  function js_style8(){ 
+    text.style.fontSize="40px";
+  }
+</script>
+
+</html>
